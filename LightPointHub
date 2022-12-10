@@ -36,7 +36,7 @@ function library:CreateWindow(name, version, icon)
 
 	Window.Name = "Window"
 	Window.Parent = MyGui
-	Window.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+	Window.BackgroundColor3 = Color3.fromRGB(49, 49, 59)
 	Window.Position = UDim2.new(0.5, -300, 0.600000024, -200)
 	Window.Size = UDim2.new(0, 0, 0, 0)
 	Window.ClipsDescendants = true
@@ -56,8 +56,8 @@ function library:CreateWindow(name, version, icon)
 	Icon.BackgroundTransparency = 1.000
 	Icon.Position = UDim2.new(0, 6, 0, 6)
 	Icon.Size = UDim2.new(0, 18, 0, 18)
-	Icon.Image = "rbxassetid://3926307971"
-	Icon.ImageColor3 = Color3.fromRGB(135, 255, 135)
+	Icon.Image = "rbxassetid://"..icon
+	Icon.ImageColor3 = Color3.fromRGB(39, 169, 255)
 
 	MainTitle.Name = "Title"
 	MainTitle.Parent = TitleBar
@@ -66,7 +66,7 @@ function library:CreateWindow(name, version, icon)
 	MainTitle.Position = UDim2.new(0, 30, 0, 1)
 	MainTitle.Size = UDim2.new(1, -30, 1, 0)
 	MainTitle.Font = Enum.Font.Gotham
-	MainTitle.Text = name.." | "..version --"LightPoint Hub | Blox Fruits"
+	MainTitle.Text = name.." | "..version --"Title | Version"
 	MainTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
 	MainTitle.TextSize = 12.000
 	MainTitle.TextXAlignment = Enum.TextXAlignment.Left
@@ -301,7 +301,7 @@ function library:CreateWindow(name, version, icon)
 			Page.Position = UDim2.new(0, 150, 0, 36)
 			Page.Size = UDim2.new(1, -155, 1, -41)
 			Page.ScrollBarThickness = 5
-			Page.ScrollBarImageColor3 = Color3.fromRGB(135, 255, 135)
+			Page.ScrollBarImageColor3 = Color3.fromRGB(39, 169, 255)
 			Page.AutomaticCanvasSize = "Y"
 			Page.Visible = false
 
@@ -620,7 +620,7 @@ function library:CreateWindow(name, version, icon)
 						Sample.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 						Sample.BackgroundTransparency = 1.000
 						Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
-						Sample.ImageColor3 = Color3.fromRGB(135, 255, 135)
+						Sample.ImageColor3 = Color3.fromRGB(39, 169, 255)
 						Sample.ImageTransparency = 0.600
 
 						local btn = Caller
@@ -665,7 +665,7 @@ function library:CreateWindow(name, version, icon)
 
 				Label.Name = "Label"
 				Label.Parent = SectionContainer
-				Label.BackgroundColor3 = Color3.fromRGB(135, 255, 135)
+				Label.BackgroundColor3 = Color3.fromRGB(39, 169, 255)
 				Label.BackgroundTransparency = 0.500
 				Label.Size = UDim2.new(1, 0, 0, 24)
 
@@ -680,7 +680,7 @@ function library:CreateWindow(name, version, icon)
 				_4pxShadow2px.Selectable = true
 				_4pxShadow2px.Size = UDim2.new(1, 30, 1, 30)
 				_4pxShadow2px.Image = "http://www.roblox.com/asset/?id=5761504593"
-				_4pxShadow2px.ImageColor3 = Color3.fromRGB(135, 255, 135)
+				_4pxShadow2px.ImageColor3 = Color3.fromRGB(39, 169, 255)
 				_4pxShadow2px.ImageTransparency = 0.700
 				_4pxShadow2px.ScaleType = Enum.ScaleType.Slice
 				_4pxShadow2px.SliceCenter = Rect.new(17, 17, 283, 283)
@@ -752,7 +752,7 @@ function library:CreateWindow(name, version, icon)
 
 				Indicator_3.Name = "Indicator"
 				Indicator_3.Parent = Tracker
-				Indicator_3.BackgroundColor3 = Color3.fromRGB(135, 255, 135)
+				Indicator_3.BackgroundColor3 = Color3.fromRGB(39, 169, 255)
 				Indicator_3.BorderSizePixel = 0
 				Indicator_3.Size = UDim2.new(0, 0, 1, 0)
 
@@ -764,13 +764,13 @@ function library:CreateWindow(name, version, icon)
 				Shadow_1.Selectable = true
 				Shadow_1.Size = UDim2.new(1, 30, 1, 30)
 				Shadow_1.Image = "http://www.roblox.com/asset/?id=5761504593"
-				Shadow_1.ImageColor3 = Color3.fromRGB(135, 255, 135)
+				Shadow_1.ImageColor3 = Color3.fromRGB(39, 169, 255)
 				Shadow_1.ImageTransparency = 1
 				Shadow_1.ScaleType = Enum.ScaleType.Slice
 				Shadow_1.SliceCenter = Rect.new(17, 17, 283, 283)
 
 				TextButton_2.Parent = Indicator_3
-				TextButton_2.BackgroundColor3 = Color3.fromRGB(135, 255, 135)
+				TextButton_2.BackgroundColor3 = Color3.fromRGB(39, 169, 255)
 				TextButton_2.Position = UDim2.new(1, -4, 0.5, -4)
 				TextButton_2.Size = UDim2.new(0, 8, 0, 8)
 				TextButton_2.Font = Enum.Font.SourceSans
@@ -786,7 +786,7 @@ function library:CreateWindow(name, version, icon)
 				Shadow_2.Selectable = true
 				Shadow_2.Size = UDim2.new(1, 30, 1, 30)
 				Shadow_2.Image = "http://www.roblox.com/asset/?id=5761504593"
-				Shadow_2.ImageColor3 = Color3.fromRGB(135, 255, 135)
+				Shadow_2.ImageColor3 = Color3.fromRGB(39, 169, 255)
 				Shadow_2.ImageTransparency = 1
 				Shadow_2.ScaleType = Enum.ScaleType.Slice
 				Shadow_2.SliceCenter = Rect.new(17, 17, 283, 283)
@@ -796,7 +796,7 @@ function library:CreateWindow(name, version, icon)
 
 				Fade.Name = "Fade"
 				Fade.Parent = TextButton_2
-				Fade.BackgroundColor3 = Color3.fromRGB(135, 255, 135)
+				Fade.BackgroundColor3 = Color3.fromRGB(39, 169, 255)
 				Fade.BackgroundTransparency = 1.000
 				Fade.Position = UDim2.new(-0.5, 0, -0.5, 0)
 				Fade.Size = UDim2.new(2, 0, 2, 0)
@@ -899,7 +899,7 @@ function library:CreateWindow(name, version, icon)
 
 				Footer_3.Name = "Footer"
 				Footer_3.Parent = TextBox
-				Footer_3.BackgroundColor3 = Color3.fromRGB(135, 255, 135)
+				Footer_3.BackgroundColor3 = Color3.fromRGB(39, 169, 255)
 				Footer_3.BackgroundTransparency = 0.750
 				Footer_3.Position = UDim2.new(0, 0, 1, -8)
 				Footer_3.Size = UDim2.new(1, 0, 0, 8)
@@ -944,7 +944,7 @@ function library:CreateWindow(name, version, icon)
 				EditIcon.Position = UDim2.new(0, 6, 0, 6)
 				EditIcon.Size = UDim2.new(0, 18, 0, 18)
 				EditIcon.Image = "rbxassetid://"..icon
-				EditIcon.ImageColor3 = Color3.fromRGB(135, 255, 135)
+				EditIcon.ImageColor3 = Color3.fromRGB(39, 169, 255)
 				function UpdateBox:UpdateBox(name)
 					TextInput.PlaceholderText = name
 				end
@@ -974,7 +974,7 @@ function library:CreateWindow(name, version, icon)
 
 				Footer_2.Name = "Footer"
 				Footer_2.Parent = Keybind
-				Footer_2.BackgroundColor3 = Color3.fromRGB(135, 255, 135)
+				Footer_2.BackgroundColor3 = Color3.fromRGB(39, 169, 255)
 				Footer_2.BackgroundTransparency = 0.750
 				Footer_2.Position = UDim2.new(0, 0, 1, -8)
 				Footer_2.Size = UDim2.new(1, 0, 0, 8)
@@ -1021,7 +1021,7 @@ function library:CreateWindow(name, version, icon)
 				Sample.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 				Sample.BackgroundTransparency = 1.000
 				Sample.Image = "http://www.roblox.com/asset/?id=4560909609"
-				Sample.ImageColor3 = Color3.fromRGB(135, 255, 135)
+				Sample.ImageColor3 = Color3.fromRGB(39, 169, 255)
 				Sample.ImageTransparency = 0.600
 
 				UICorner_15.CornerRadius = UDim.new(0, 4)
@@ -1140,14 +1140,14 @@ function library:CreateWindow(name, version, icon)
 				UIStroke.Name = "UIStroke"
 				UIStroke.Parent = Indicator
 				UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Contextual
-				UIStroke.Color = Color3.fromRGB(135, 255, 135)
+				UIStroke.Color = Color3.fromRGB(39, 169, 255)
 				UIStroke.LineJoinMode = Enum.LineJoinMode.Round
 				UIStroke.Thickness = 2
 				UIStroke.Transparency = 0
 
 				Dot.Name = "Dot"
 				Dot.Parent = Indicator
-				Dot.BackgroundColor3 = Color3.fromRGB(135, 255, 135)
+				Dot.BackgroundColor3 = Color3.fromRGB(39, 169, 255)
 				Dot.BackgroundTransparency = 1.000
 				Dot.Position = UDim2.new(0, 2, 0, 2)
 				Dot.Size = UDim2.new(1, -4, 1, -4)
